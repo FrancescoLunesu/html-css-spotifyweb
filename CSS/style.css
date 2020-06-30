@@ -52,7 +52,7 @@ aside .aside-column ul li{
 
 /* DEFINIZIONE HEADER NAVBAR E MAIN */
 
-.container-main{
+.container-header{
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -107,7 +107,9 @@ nav{
 
 main{
     height: 600px;
-    background-color: lightgray;
+    background-color: #121212;
+    overflow-y: auto;
+    color: #fff;
 }
 
 .player{
@@ -119,4 +121,41 @@ main{
     height: 70px;
     width: 100vw;
     background-color: purple;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: green; */
+}
+
+.square{
+    /* width: 220px;
+    height: 260px; */
+    /* background-color: red;
+    border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.row .square .FL-img{
+    /* display: flex;
+    justify-content: center;
+    padding: 10px; */
+}
+.row .square .FL-descrizione{
+    width: 70%;
+    align-self:center;
+    flex-flow: wrap;
+    /* align-self: center; */
+    /* padding: 10px; */
+}
+
+
+.row .square img{
+    width: 160px;
+    height: 180px;
 }
