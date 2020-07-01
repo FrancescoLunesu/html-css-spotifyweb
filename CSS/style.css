@@ -204,14 +204,14 @@ main{
 .FL-band{
     height: 70px;
     width: 100vw;
-    background-color: purple;
+    background-color: #282828;
 }
 
 .FL-artist{
     height: 100%;
     width: 20%;
     float: left;
-    background-color: green;
+    /* background-color: green; */
     padding: 10px;
 }
 
@@ -237,5 +237,41 @@ main{
     height: 100%;
     width: 60%;
     float: left;
-    background-color: blue;
+    /* background-color: blue; */
+}
+
+.FL-riproduzione .FL-player-icons{
+    padding: 10px;
+}
+
+.FL-riproduzione .FL-play-bar .FL-progress-bar{
+    height: 3px;
+    width: 60%;
+    background-color: #535353;
+}
+
+.FL-riproduzione .FL-play-bar .FL-progress-bar .FL-progress{
+    height: 100%;
+    width: 20%;
+    background-color: #040404;
+}
+
+.FL-bar-options{
+    height: 100%;
+    width: 20%;
+    float: left;
+    /* background-color: green; */
+    padding: 10px;
+}
+
+.FL-bar-options .FL-play-bar .FL-progress-bar{
+    height: 3px;
+    width: 60%;
+    background-color: #535353;
+}
+
+.FL-bar-options .FL-play-bar .FL-progress-bar .FL-progress{
+    height: 100%;
+    width: 80%;
+    background-color: #040404;
 }
